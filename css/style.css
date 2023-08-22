@@ -5,8 +5,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css2?family=Victor+Mono&display=swap');
 @font-face {
-    font-family: "Righteous";
+    font-family: 'Victor Mono', monospace;
     src: url("../fonts/Poppins-Black.ttf");
     src: url("../fonts/Roboto.ttf");
 }
@@ -45,7 +46,7 @@ html {
 body {
     color: #666666;
     font-size: 14px;
-    font-family: Poppins;
+    font-family: 'Victor Mono', monospace;
     line-height: 1.80857;
     font-weight: normal;
     overflow-x: hidden;
@@ -178,7 +179,7 @@ img {
 .header_bg {
     width: 100%;
     float: left;
-    background: #2d4fbc !important;
+    background: #6870e0 !important;
     padding-bottom: 20px !important;
 }
 
@@ -262,14 +263,14 @@ img {
     color: #ffffff;
     text-align: center;
     background-color: #070414;
-    border-bottom: 7px solid #393bb9;
+    border-bottom: 7px solid #6870e086;
     border-radius: 30px;
     padding: 9px 0px;
 }
 
 .read_bt a:hover {
     background-color: #8480f9;
-    border-bottom: 7px solid #393bb9;
+    border-bottom: 7px solid #6870e0;
 }
 
 #my_slider .carousel-control-prev:hover,
@@ -365,7 +366,7 @@ img {
     font-size: 16px;
     color: #ffffff;
     text-align: center;
-    background-color: #393bb9;
+    background-color: #6870e0;
     border-radius: 30px;
     padding: 9px 0px;
 }

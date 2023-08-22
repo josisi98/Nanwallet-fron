@@ -1,0 +1,3 @@
+rgb(104,112,224) | #6870e0 =====> couleur pricipal(violet)
+rgb(255,255,255) | #ffffff =====> couleur blanche
+rgb(30,32,41) | #1e2029 =====> couleur sombre
