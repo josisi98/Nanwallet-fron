@@ -263,21 +263,25 @@ img {
     color: #ffffff;
     text-align: center;
     background-color: #070414;
-    border-bottom: 7px solid #6870e086;
+    border-bottom: 7px solid #8480f9;
     border-radius: 30px;
     padding: 9px 0px;
 }
 
 .read_bt a:hover {
     background-color: #8480f9;
-    border-bottom: 7px solid #6870e0;
+    border-bottom: 7px solid #1e2029 ;
 }
 
 #my_slider .carousel-control-prev:hover,
+#my_slider .carousel-control-prev:focus{
+    background: #6870e0;
+    color: #fff;
+}
+
 #my_slider .carousel-control-next:hover,
-#my_slider .carousel-control-prev:focus,
 #my_slider .carousel-control-next:focus {
-    background: #055eff;
+    background: #1e2029;
     color: #fff;
 }
 
@@ -291,14 +295,14 @@ img {
     position: absolute;
     right: 350px;
     top: 100%;
-    background-color: #055eff;
+    background-color:#6870e0;
 }
 
 #my_slider .carousel-control-prev,
 #my_slider .carousel-control-next {
     width: 65px;
     height: 65px;
-    background: #000006;
+    background: #1e2029;
     opacity: 1;
     font-size: 30px;
     color: #ffffff;
@@ -350,7 +354,7 @@ img {
 .us_text {
     background-color: #ececeb;
     border-radius: 100%;
-    color: #5114b2;
+    color: #3239a2;
     padding: 5px 10px;
 }
 
@@ -369,6 +373,7 @@ img {
     background-color: #6870e0;
     border-radius: 30px;
     padding: 9px 0px;
+   
 }
 
 .read_bt_1 a:hover {
@@ -378,7 +383,8 @@ img {
 .services_section {
     width: 100%;
     float: left;
-    background-image: url(../images/services-bg.png);
+    background-color:#7880f1 ;
+    /* background-image: url(../images/services-bg.png); */
     background-size: cover;
     height: auto;
     padding-bottom: 90px;
@@ -406,7 +412,7 @@ img {
 .our_text {
     background-color: #ececeb;
     border-radius: 100%;
-    color: #5114b2;
+    color: #3239a2;
     padding: 17px 10px;
 }
 
@@ -557,7 +563,7 @@ img {
 .newsletter_section {
     width: 100%;
     float: left;
-    background-color: #2e4dbc;
+    background: #1e2029 ; 
     height: auto;
     padding: 40px 0px;
 }
@@ -599,18 +605,44 @@ img {
 .subscribe_bt {
     width: 150px;
     float: left;
-    color: #acabab;
+    color: #1e2029 ;
     font-size: 16px;
-    background-color: #040202;
+    background: #8480f9;
     padding: 10px 15px;
     text-align: center;
     border-radius: 50px;
     margin-left: 30px;
+    
+   
+    padding: 9px 0px;
+    
+
 }
 
+/* .subscribe_bt:hover {
+    background-color: #1e2029;
+    border-bottom: 7px solid #8480f9;
+  
+} */
+
+
 .subscribe_bt a {
-    color: #acabab;
+    color: #1e2029 ;
 }
+
+
+
+
+    /* width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #070414;
+    border-bottom: 7px solid #8480f9;
+    border-radius: 30px;
+    padding: 9px 0px; */
+
 
 .client_section {
     width: 100%;
@@ -622,8 +654,7 @@ img {
 
 .tes_text {
     background-color: #ececeb;
-    border-radius: 100%;
-    color: #5114b2;
+    color: #6c75ef;
     padding: 15px 10px;
 }
 
@@ -635,7 +666,7 @@ img {
 .client_box {
     width: 100%;
     float: left;
-    background-color: #402fb7;
+    background-color: #5d64ca;
     padding: 30px 30px 10px 30px;
     border-radius: 20px;
 }
@@ -733,7 +764,7 @@ img {
 }
 
 .carousel-indicators .active {
-    background-color: #402fb7;
+    background-color: #5d64ca;
 }
 
 .carousel-indicators {
@@ -799,7 +830,7 @@ img {
     text-align: center;
     font-size: 20px;
     color: #ffffff;
-    background-color: #4c35bc;
+    background-color: #5d64ca;
     padding: 10px;
     border-radius: 30px;
 }
@@ -936,7 +967,7 @@ img {
 }
 
 .copyright_text a:hover {
-    color: #402fb7;
+    color: #5d64ca;
 }
 
 .margin_top_90 {
